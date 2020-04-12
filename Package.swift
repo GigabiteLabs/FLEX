@@ -28,8 +28,3 @@ let package = Package(
             dependencies: ["FLEX"]),
     ]
 )
-
-
-Showing All Messages
-: Source files for target FLEX should be located under /Users/dan/Library/Developer/Xcode/DerivedData/GBLCommonUtils-gblijcjuujzjsuacqrlpfytrcvzm/SourcePackages/checkouts/FLEX/Classes
-
