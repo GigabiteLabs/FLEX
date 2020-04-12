@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "FLEX",
             dependencies: [],
-            path: "./Classes"),
+            path: "Classes"),
         .testTarget(
             name: "FLEXTests",
             dependencies: ["FLEX"]),
