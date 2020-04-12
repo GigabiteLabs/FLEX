@@ -20,7 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "FLEX",
-            path: "./Classes",
+            path: "Classes",
             sources: ["./Classes/**/*.{h,c,m,mm}"],
             publicHeadersPath: "./Classes/FLEX.h"),
         .testTarget(
@@ -28,3 +28,8 @@ let package = Package(
             dependencies: ["FLEX"]),
     ]
 )
+
+
+Showing All Messages
+: Source files for target FLEX should be located under /Users/dan/Library/Developer/Xcode/DerivedData/GBLCommonUtils-gblijcjuujzjsuacqrlpfytrcvzm/SourcePackages/checkouts/FLEX/Classes
+
