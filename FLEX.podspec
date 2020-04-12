@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url = "https://twitter.com/NSExceptional"
   spec.platform         = :ios, "13.0"
   spec.source           = { :git => "https://github.com/gigabitelabs/FLEX.git", :tag => "#{spec.version}" }
-  spec.source_files     = "Classes/**/*.{h,c,m,mm}"
+  spec.source_files     = "Sources/**/*.{h,c,m,mm}"
   spec.frameworks       = [ "Foundation", "UIKit", "CoreGraphics", "ImageIO", "QuartzCore", "WebKit", "Security" ]
   spec.libraries        = [ "z", "sqlite3" ]
   spec.requires_arc     = true
