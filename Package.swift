@@ -20,9 +20,9 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "FLEX",
-            path: "Classes",
-            sources: ["Classes/**/*.{h,c,m,mm}"],
-            publicHeadersPath: "Classes/*.h"),
+            path: "./Classes",
+            sources: ["./Classes/**/*.{h,c,m,mm}"],
+            publicHeadersPath: "./Classes/FLEX.h"),
         .testTarget(
             name: "FLEXTests",
             dependencies: ["FLEX"]),
